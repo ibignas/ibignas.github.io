@@ -324,9 +324,53 @@
     <div style="display: flex; justify-content: center; text-align: center;">
       <audio src="/assets/img/video/audio-1.mp3" controls></audio>
     </div>
+
+    <h2 class="section-title">Math equation</h2>
+    <div style="display: flex; justify-content:center; text-align: center;">
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+        <mrow>
+        <msubsup>
+          <mo> &#x222B; </mo>
+          <mi>D</mi>
+          <mrow></mrow>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mo>∇</mo>
+          <mo>⋅</mo>
+          <mi>F</mi>
+          <mo>)</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>V</mi>
+        <mo>=</mo>
+        <msubsup>
+          <mo>&#x222B;</mo>
+          <mrow>∂D</mrow>
+          <mrow></mrow>
+        </msubsup>
+        <mrow>
+          <mi>F</mi>
+          <mo>⋅</mo>
+          <mi>n</mi>
+        </mrow>
+        <mi>d</mi>
+        <mi>S</mi>
+      </mrow>
+      </math>
+    </div>
+
+    <h2 class="section-title">SVG to make the website "better"</h2>
+    <div style="display: flex; justify-content:center; text-align: center;">
+      <img src="/assets/img/linux-svgrepo-com.svg" alt="SVG Image" width="200px">
+      <h4>"I use linux btw"</h4>
+    </div>
+
+    <h2 class="section-title">Clock</h2>
+    <div id="clock_update"></div>
+
     </section>
     <!-- End of services section -->
-
   </main>
 
   <footer id="footer" class="footer accent-background">
@@ -360,6 +404,7 @@
 
   <!-- Vendor JS Files -->
   <script src="/assets/js/functions.js"></script>
+  <script src="/assets/js/clock.js"></script>
 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>

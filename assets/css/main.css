@@ -127,6 +127,15 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+#clock_update {
+  font-family: monospace;
+  font-size: 2em;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
