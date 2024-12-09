@@ -136,6 +136,17 @@ input:checked + .slider:before {
 
 }
 
+#review-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.review-container {
+  border: 2px solid white;
+  border-radius: 2%;
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -1368,6 +1379,14 @@ section,
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin-bottom: 30px;
+  align-items: center;
+  align-content: center;
+}
+
+#contact-form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact .info-item i {
